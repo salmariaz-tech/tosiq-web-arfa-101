@@ -2,15 +2,29 @@
 <html lang="en">
 <head>
     <title>Home</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
 
-    <nav>
-        <a href="./home.html">Home</a> | 
-        <a href="./help.html">Help</a> |
-        <a href="./about.html">About</a> |
-        <a href="https://wikipedia.com" target="_blank">Wikipedia</a>
-    </nav>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../assets/images/logo.png" height="56" alt="">
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./help.html">Help</a></li>
+                </ul>
+            </div>
+            <div class="cta">
+                <button>Signup</button>
+                <button>Login</button>
+            </div>
+        </nav>
+
+    </header>
 
     <!-- padding: 4px; all sides -->
     <!-- padding: 4px 2px; top-bottom left-right -->
@@ -24,15 +38,11 @@
 
     <!-- box-shadow: x-axis y-axis spreadness color; -->
 
-    <h3 style="
-    padding: 4px; 
-    border-radius: 5px; 
-    box-shadow: 4px 4px 5px #016B61;
-    margin-top: 4px;
-    color: #016B61; 
-    background-color: #e8e6e6;">
-        Home
-    </h3>
+    <section>
+        <h3 class="page-title">
+            Home
+        </h3>
+    </section>
 
 </body>
 </html>
