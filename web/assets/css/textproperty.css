@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 5px;
+}
+
+.my-text{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-shadow: 3px 3px 3px #ccc;
+  font-size: 36px;
+
+  /* display: inline; */
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #F9B487;
+  width: fit-content;
+  box-shadow: 3px 3px 3px #ccc;
+}
+
+.paragraph{
+    text-align: justify;
+    padding: 4px; 
+    border-radius: 4px;
+    width: 300px;
+    background-color: #F9B487;
+    height: 100px;
+    overflow: auto;
+}
