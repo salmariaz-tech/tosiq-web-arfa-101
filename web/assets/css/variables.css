@@ -1,0 +1,21 @@
+:root {
+    --box-space: 20px;
+    --box-gap: 4px;
+}
+h1 {
+    background-color: yellow;
+    padding: var(--box-space);
+    margin:  var(--box-gap);
+}
+
+p {
+    background-color: cyan;
+    padding: var(--box-space);
+    margin:  var(--box-gap);
+}
+
+div {
+    background-color: purple;
+    padding: var(--box-space);
+    margin:  var(--box-gap);
+}
