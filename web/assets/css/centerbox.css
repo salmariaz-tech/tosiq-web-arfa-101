@@ -1,0 +1,15 @@
+body {
+    margin: 0px; padding: 0px;
+    background-color: #e4e4e4ff;
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.contact-box {
+    background-color: white;
+    padding: 12px;
+    max-width: fit-content;
+}
+
