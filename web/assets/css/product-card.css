@@ -1,0 +1,74 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #e1e7e9;
+}
+.product-box {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.product-card {
+  width: 300px;
+  border-radius: 8px;
+  background-color: white;
+
+  box-shadow: 0px 0px 5px #ccc;
+}
+.fa-solid{
+    color: #186d45;
+    font-size: 11px;
+}
+.subtitle {
+    color: #333;
+    margin-top: 2px;
+    font-size: 11px;
+}
+.product-box > .product-card > .card-header {
+  background-image: url("../images/watch.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
+  position: relative;
+}
+
+.sample-text{
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    background-color: white;
+    color: #333;
+    padding: 4px;
+    border-radius: 8px;
+    width: fit-content;
+
+}
+.product-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-data > span {
+  display: block;
+}
+.card-body,
+.card-footer {
+  padding: 8px;
+}
+.btn-purchase {
+  background-color: #186d45;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 12px;
+}
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
