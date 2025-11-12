@@ -1,0 +1,15 @@
+/* top; left; bottom; right */
+.parent {
+    border: 5px dashed #000;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    bottom: 0px;
+    height: 100px;
+    width: 100px;
+    /* background-color: red; */
+}
