@@ -1,0 +1,18 @@
+h2 {
+    color: #333;
+    position: relative;
+}
+
+h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    background-color: red;
+    height: 4px; width: 0px;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+h2:hover::before {
+    width: 40px;
+}
