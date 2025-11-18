@@ -1,11 +1,18 @@
 body {
     background-color: white;
     color: black;
+
 }
-@media (width <= 420px){
+p {
+    display: none;
+}
+@media (width <= 420px) and (width <= 768px){
     body {
         background-color: red;
         color: #f1f1f1;
+    }
+    p {
+        display: block;
     }
 }
 
