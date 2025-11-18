@@ -2,8 +2,14 @@ body {
     background-color: white;
     color: black;
 }
+@media (width <= 420px){
+    body {
+        background-color: red;
+        color: #f1f1f1;
+    }
+}
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 420px) and (max-width: 768px) {
     body {
         background-color: #333;
         color: #f1f1f1;
