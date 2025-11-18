@@ -1,0 +1,20 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    body {
+        background-color: #333;
+        color: #f1f1f1;
+    }
+    p {
+        font-size: 9px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background-color: yellowgreen;
+        color: #333;
+    }
+}
