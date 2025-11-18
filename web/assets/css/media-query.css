@@ -1,12 +1,20 @@
 body {
     background-color: white;
     color: black;
-
 }
 p {
     display: none;
 }
-@media (width <= 420px) and (width <= 768px){
+@media (width <= 420px){
+    body {
+        background-color: red;
+        color: #f1f1f1;
+    }
+    p {
+        display: block;
+    }
+}
+@media (width > 420px) and (width <= 768px){
     body {
         background-color: red;
         color: #f1f1f1;
@@ -16,16 +24,7 @@ p {
     }
 }
 
-@media screen and (min-width: 420px) and (max-width: 768px) {
-    body {
-        background-color: #333;
-        color: #f1f1f1;
-    }
-    p {
-        font-size: 9px;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media (width > 768px) and (width <= 1024px) {
     body {
         background-color: yellowgreen;
         color: #333;
