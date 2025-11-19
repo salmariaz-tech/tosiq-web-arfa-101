@@ -16,7 +16,7 @@ p {
 }
 @media (width > 420px) and (width <= 768px){
     body {
-        background-color: red;
+        background-color: #333;
         color: #f1f1f1;
     }
     p {

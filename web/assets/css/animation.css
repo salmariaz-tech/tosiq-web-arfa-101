@@ -1,0 +1,47 @@
+
+.box {
+    height: 100px; width: 100px;
+    background-color: black;
+    transition: .3s;
+    /* animation css properties */
+    animation: box 5s infinite;
+}
+
+/* .box:hover {
+    transform: scale(1.1);
+    transform: rotate(20deg);
+} */
+@keyframes box {
+    0%{
+        /* initial position */
+        margin-top: 0px;
+        margin-left: 0px;
+
+        background-color: black
+    }
+    33.33% {
+        margin-top: 0px;
+        margin-left: 200px;
+    transform: scale(1.1);
+    transform: rotate(360deg);
+
+        background-color: cyan
+    }
+    66.67% {
+        margin-top: 200px;
+        margin-left: 200px;
+    transform: scale(1.1);
+    transform: rotate(20deg);
+        
+        background-color: yellowgreen
+    }
+    
+    99.99% {
+        margin-top: 200px;
+        margin-left: 400px;
+    transform: scale(1.1);
+    transform: rotate(20deg);
+        
+        background-color: blue
+    }
+}
