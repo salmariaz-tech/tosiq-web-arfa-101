@@ -1,0 +1,28 @@
+html {
+    scroll-behavior: smooth
+}
+body {
+    margin: 0px; padding: 0px;
+}
+
+.navigation {
+    position: fixed;
+    left: 50%;
+    translate: -50% ;
+}
+
+section {
+    height: 90vh;
+    padding: 8px;
+    margin: 12px;
+    border-radius: 8px;
+}
+
+section:nth-child(odd){
+    background-color: #ddd;
+}
+
+section:nth-child(even){
+    background-color: #ccc;
+}
+

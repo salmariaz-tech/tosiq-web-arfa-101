@@ -12,6 +12,7 @@ p {
     }
     p {
         display: block;
+        font-size: 20px;
     }
 }
 @media (width > 420px) and (width <= 768px){
