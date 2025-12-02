@@ -1,0 +1,9 @@
+body {
+    background-color: #e2e2e2ff !important;
+}
+
+.std-card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+}
